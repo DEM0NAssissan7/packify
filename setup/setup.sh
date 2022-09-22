@@ -11,7 +11,7 @@ root_directory=`pwd`
 build_directory="$root_directory"/build
 
 if [[ -d "$root_directory/setup/forge/client/libraries" ]]; then
-	echo Forge has already been configured
+	echo Forge has already been configured. Skipping setup.
 else
 	echo Configuring forge
 	cd "$root_directory"
